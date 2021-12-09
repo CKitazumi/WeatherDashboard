@@ -1,0 +1,66 @@
+:root {
+  --primaryColor: rgb(75, 148, 170);
+  --primaryShadow: rgb(1, 66, 66);
+}
+
+#header {
+  color: white;
+  background-color: var(--primaryColor);
+  position: relative;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px var(--primaryShadow);
+}
+
+#city-Search{
+  width: 80%;
+  color: black;
+}
+
+.city-Display {
+  color: black;
+  border: 1px solid black;
+  padding: 15%;
+  width: 55rem;
+  margin: 0;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.weather-boxes {
+ text-align: center;
+ background-color: var(--primaryColor);
+ color: white;
+ width: 9rem;
+ margin: 20px;
+ list-style-type: none;
+}
+
+#search-Btn {
+  background-color: var(--primaryColor);
+  border-radius: 08px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px var(--primaryShadow);
+  margin-top: 8px;
+}
+
+
+.uv-Good {
+  background-color: green;
+  color: black;
+}
+
+.uv-Moderate {
+  background-color: brown;
+  color: black;
+}
+
+.uv-Bad {
+  background-color: red;
+  color: black;
+}
